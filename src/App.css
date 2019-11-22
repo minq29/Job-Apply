@@ -1,0 +1,156 @@
+
+
+.button{
+  border-radius:15px;
+  padding: 5px;
+  min-width: 100px;
+  color: white;
+  font-weight: 600;
+  -webkit-appearance: none;
+  cursor:pointer;
+  /* text */
+
+width: 100px;
+height: 50px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 29px;
+display: flex;
+flex-direction: row;
+align-items: center;
+text-align: center;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+color: #000000;
+
+
+}
+
+.button--success{
+  background-color: aquamarine;
+}
+
+.button--danger{
+  background-color: tomato;
+}
+
+.button:active,
+.button:focus{
+  outline: none;
+}
+.top-nav-bar{
+  display: flex;
+  vertical-align: middle;
+  background-color: beige;
+}
+
+.name{
+  flex: 1;
+  margin-left: 10px;
+  margin-top: 30px;
+  width: 110px;
+  height: 60px;
+}
+
+.nav{
+  display: inline;
+  font:bold 30px Dotum;
+  margin:40px;
+}
+
+.item{
+  text-decoration: none;
+  color: #999;
+  margin-right: 20px;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: darkgrey;
+  
+}
+
+.one{
+  margin-left: 50px;
+  position: relative;
+  height: 400px;
+}
+
+.two{
+  display: grid;
+  width: 200px;
+  height: 150px;
+  background: darkblue;
+  border-radius: 11px;
+  margin-left: 100px;
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.container{
+  background-color: lemonchiffon;
+  overflow: hidden;
+}
+
+.content {
+  float: left;
+  width: 400px;
+  height: 300px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.imagesize{
+  width: 300px;
+  height: 150px;
+}
+
+
+.Group{
+  position: absolute;
+  width: 207px;
+  height: 111px;
+  left: 286px;
+  top: 1717px;
+}
+
+.rec{
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  
+  background: #0D0C0D;
+  border-radius: 11px;
+}
+
+.del{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  
+  color: #FFFFFF;
+  
+}
+.TitleTyping{
+  width : 200px;
+  height : 90px;
+}
